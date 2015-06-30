@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Ashemah Harrison. All rights reserved.
 //
 
-#import "BHBlockTable2DataSource.h"
+#import "BHBlockTable2DataAdapter.h"
 
-@interface BHBlockTable2CompositeDataSource : BHBlockTable2DataSource
+@interface BHBlockTable2CompositeDataAdapter : BHBlockTable2DataAdapter
 
 @end

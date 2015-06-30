@@ -1,5 +1,5 @@
 //
-//  BHBlockTable2DataSource.h
+//  BHBlockTableNIBTools.h
 //  blocktable2
 //
 //  Created by Ashemah Harrison on 29/06/2015.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BHBlockTable2DataSource : NSObject
+@interface BHBlockTableNIBTools : NSObject
 
 @end
