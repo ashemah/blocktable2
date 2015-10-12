@@ -7,7 +7,20 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "BHBlockTable2AdapterBase.h"
 
-@interface BHBlockTable2 : NSObject
+@interface BHBlockTable2 : NSObject<UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout> {
+    
+}
+
+@property (strong, nonatomic, readonly) UICollectionView *collectionView;
+@property (strong, nonatomic) BHBlockTable2AdapterBase *dataAdapter;
+@property (strong, nonatomic, readonly) BHBlockTableState *info;
+
++ (BHBlockTable2*)blockTableWithTableView:(UICollectionView*)tableView;
++ (BHBlockTable2*)blockTableWithTableView:(UICollectionView*)tableView andDataAdapter:(BHBlockTable2AdapterBase*)dataAdapter;
+
+- (void)manuallyRegisterNibForCellIdentifier:(NSString*)cellIdentifier;
 
 @end

@@ -7,29 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D12A7881B40E71200D5134C /* BHBlockTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7751B40E71200D5134C /* BHBlockTable.m */; };
-		5D12A7891B40E71200D5134C /* BHBlockTableDynamicSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7771B40E71200D5134C /* BHBlockTableDynamicSection.m */; };
-		5D12A78A1B40E71200D5134C /* BHBlockTableFRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7791B40E71200D5134C /* BHBlockTableFRC.m */; };
-		5D12A78B1B40E71200D5134C /* BHBlockTableFRCSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A77B1B40E71200D5134C /* BHBlockTableFRCSection.m */; };
-		5D12A78D1B40E71200D5134C /* BHBlockTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A77F1B40E71200D5134C /* BHBlockTableSection.m */; };
-		5D12A78E1B40E71200D5134C /* BHBlockTableStaticSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7811B40E71200D5134C /* BHBlockTableStaticSection.m */; };
-		5D12A78F1B40E71200D5134C /* BHBlockTableStaticSectionCellDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7831B40E71200D5134C /* BHBlockTableStaticSectionCellDef.m */; };
-		5D12A7901B40E71200D5134C /* BHBlockTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7861B40E71200D5134C /* BHBlockTableViewController.m */; };
 		5D12A7931B40E81D00D5134C /* BHBlockTable2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7921B40E81C00D5134C /* BHBlockTable2.m */; };
-		5D12A7961B40E88F00D5134C /* BHBlockTable2DataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7951B40E88F00D5134C /* BHBlockTable2DataAdapter.m */; };
-		5D12A7991B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7981B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.m */; };
-		5D12A79C1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A79B1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.m */; };
-		5D12A79F1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A79E1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.m */; };
+		5D12A7961B40E88F00D5134C /* BHBlockTable2AdapterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7951B40E88F00D5134C /* BHBlockTable2AdapterBase.m */; };
+		5D12A7991B40E8D300D5134C /* BHBT2SimpleDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A7981B40E8D300D5134C /* BHBT2SimpleDataAdapter.m */; };
+		5D12A79C1B40E92900D5134C /* BHBT2CompositeDataAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D12A79B1B40E92900D5134C /* BHBT2CompositeDataAdapter.m */; };
+		5D406D011B4632D60021E798 /* BHBT2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D406D001B4632D60021E798 /* BHBT2ViewController.m */; };
+		5D406D071B466C0B0021E798 /* BHBT2DynamicSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D406D061B466C0B0021E798 /* BHBT2DynamicSection.m */; };
+		5D406D0A1B466C550021E798 /* BHBlockTableBaseSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D406D091B466C550021E798 /* BHBlockTableBaseSection.m */; };
 		5D9FC46E1B4109D9009AA133 /* BHBlockTableNIBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FC46D1B4109D9009AA133 /* BHBlockTableNIBTools.m */; };
-		5D9FC4721B411D8E009AA133 /* BHBlockTableInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FC4711B411D8E009AA133 /* BHBlockTableInfo.m */; };
+		5D9FC4721B411D8E009AA133 /* BHBlockTableState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FC4711B411D8E009AA133 /* BHBlockTableState.m */; };
 		5DAAE8B51B40E5F6000528C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8B41B40E5F6000528C0 /* main.m */; };
 		5DAAE8B81B40E5F6000528C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8B71B40E5F6000528C0 /* AppDelegate.m */; };
-		5DAAE8BB1B40E5F6000528C0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8BA1B40E5F6000528C0 /* FirstViewController.m */; };
-		5DAAE8BE1B40E5F6000528C0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8BD1B40E5F6000528C0 /* SecondViewController.m */; };
+		5DAAE8BB1B40E5F6000528C0 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8BA1B40E5F6000528C0 /* SimpleViewController.m */; };
+		5DAAE8BE1B40E5F6000528C0 /* ArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8BD1B40E5F6000528C0 /* ArrayViewController.m */; };
 		5DAAE8C11B40E5F6000528C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAE8BF1B40E5F6000528C0 /* Main.storyboard */; };
 		5DAAE8C31B40E5F6000528C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAE8C21B40E5F6000528C0 /* Images.xcassets */; };
 		5DAAE8C61B40E5F6000528C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAAE8C41B40E5F6000528C0 /* LaunchScreen.xib */; };
 		5DAAE8D21B40E5F6000528C0 /* blocktable2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAAE8D11B40E5F6000528C0 /* blocktable2Tests.m */; };
+		5DFB37AE1BC243CB00F6C758 /* BHBT2ArraySection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB37AD1BC243CB00F6C758 /* BHBT2ArraySection.m */; settings = {ASSET_TAGS = (); }; };
+		5DFB37B11BC243E200F6C758 /* BHBT2StaticSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB37B01BC243E200F6C758 /* BHBT2StaticSection.m */; settings = {ASSET_TAGS = (); }; };
+		5DFB37B71BC28F5200F6C758 /* StaticViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB37B61BC28F5200F6C758 /* StaticViewController.m */; settings = {ASSET_TAGS = (); }; };
+		5DFB37BA1BC28F6900F6C758 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DFB37B91BC28F6900F6C758 /* DynamicViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,53 +41,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D12A7741B40E71200D5134C /* BHBlockTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable.h; sourceTree = "<group>"; };
-		5D12A7751B40E71200D5134C /* BHBlockTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable.m; sourceTree = "<group>"; };
-		5D12A7761B40E71200D5134C /* BHBlockTableDynamicSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableDynamicSection.h; sourceTree = "<group>"; };
-		5D12A7771B40E71200D5134C /* BHBlockTableDynamicSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableDynamicSection.m; sourceTree = "<group>"; };
-		5D12A7781B40E71200D5134C /* BHBlockTableFRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableFRC.h; sourceTree = "<group>"; };
-		5D12A7791B40E71200D5134C /* BHBlockTableFRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableFRC.m; sourceTree = "<group>"; };
-		5D12A77A1B40E71200D5134C /* BHBlockTableFRCSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableFRCSection.h; sourceTree = "<group>"; };
-		5D12A77B1B40E71200D5134C /* BHBlockTableFRCSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableFRCSection.m; sourceTree = "<group>"; };
-		5D12A77E1B40E71200D5134C /* BHBlockTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableSection.h; sourceTree = "<group>"; };
-		5D12A77F1B40E71200D5134C /* BHBlockTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableSection.m; sourceTree = "<group>"; };
-		5D12A7801B40E71200D5134C /* BHBlockTableStaticSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableStaticSection.h; sourceTree = "<group>"; };
-		5D12A7811B40E71200D5134C /* BHBlockTableStaticSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableStaticSection.m; sourceTree = "<group>"; };
-		5D12A7821B40E71200D5134C /* BHBlockTableStaticSectionCellDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableStaticSectionCellDef.h; sourceTree = "<group>"; };
-		5D12A7831B40E71200D5134C /* BHBlockTableStaticSectionCellDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableStaticSectionCellDef.m; sourceTree = "<group>"; };
-		5D12A7841B40E71200D5134C /* BHBlockTableTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableTypes.h; sourceTree = "<group>"; };
-		5D12A7851B40E71200D5134C /* BHBlockTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableViewController.h; sourceTree = "<group>"; };
-		5D12A7861B40E71200D5134C /* BHBlockTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableViewController.m; sourceTree = "<group>"; };
 		5D12A7911B40E81C00D5134C /* BHBlockTable2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2.h; sourceTree = "<group>"; };
 		5D12A7921B40E81C00D5134C /* BHBlockTable2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable2.m; sourceTree = "<group>"; };
-		5D12A7941B40E88F00D5134C /* BHBlockTable2DataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2DataAdapter.h; sourceTree = "<group>"; };
-		5D12A7951B40E88F00D5134C /* BHBlockTable2DataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable2DataAdapter.m; sourceTree = "<group>"; };
-		5D12A7971B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2SimpleDataAdapter.h; sourceTree = "<group>"; };
-		5D12A7981B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable2SimpleDataAdapter.m; sourceTree = "<group>"; };
-		5D12A79A1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2CompositeDataAdapter.h; sourceTree = "<group>"; };
-		5D12A79B1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable2CompositeDataAdapter.m; sourceTree = "<group>"; };
-		5D12A79D1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2RealmDataAdapter.h; sourceTree = "<group>"; };
-		5D12A79E1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable2RealmDataAdapter.m; sourceTree = "<group>"; };
+		5D12A7941B40E88F00D5134C /* BHBlockTable2AdapterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2AdapterBase.h; sourceTree = "<group>"; };
+		5D12A7951B40E88F00D5134C /* BHBlockTable2AdapterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTable2AdapterBase.m; sourceTree = "<group>"; };
+		5D12A7971B40E8D300D5134C /* BHBT2SimpleDataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBT2SimpleDataAdapter.h; sourceTree = "<group>"; };
+		5D12A7981B40E8D300D5134C /* BHBT2SimpleDataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBT2SimpleDataAdapter.m; sourceTree = "<group>"; };
+		5D12A79A1B40E92900D5134C /* BHBT2CompositeDataAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBT2CompositeDataAdapter.h; sourceTree = "<group>"; };
+		5D12A79B1B40E92900D5134C /* BHBT2CompositeDataAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBT2CompositeDataAdapter.m; sourceTree = "<group>"; };
+		5D406CFF1B4632D60021E798 /* BHBT2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBT2ViewController.h; sourceTree = "<group>"; };
+		5D406D001B4632D60021E798 /* BHBT2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBT2ViewController.m; sourceTree = "<group>"; };
+		5D406D051B466C0B0021E798 /* BHBT2DynamicSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBT2DynamicSection.h; sourceTree = "<group>"; };
+		5D406D061B466C0B0021E798 /* BHBT2DynamicSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBT2DynamicSection.m; sourceTree = "<group>"; };
+		5D406D081B466C550021E798 /* BHBlockTableBaseSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableBaseSection.h; sourceTree = "<group>"; };
+		5D406D091B466C550021E798 /* BHBlockTableBaseSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableBaseSection.m; sourceTree = "<group>"; };
 		5D9FC46C1B4109D9009AA133 /* BHBlockTableNIBTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableNIBTools.h; sourceTree = "<group>"; };
 		5D9FC46D1B4109D9009AA133 /* BHBlockTableNIBTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableNIBTools.m; sourceTree = "<group>"; };
 		5D9FC46F1B411AC7009AA133 /* BHBlockTable2Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHBlockTable2Types.h; sourceTree = "<group>"; };
-		5D9FC4701B411D8E009AA133 /* BHBlockTableInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableInfo.h; sourceTree = "<group>"; };
-		5D9FC4711B411D8E009AA133 /* BHBlockTableInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableInfo.m; sourceTree = "<group>"; };
+		5D9FC4701B411D8E009AA133 /* BHBlockTableState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBlockTableState.h; sourceTree = "<group>"; };
+		5D9FC4711B411D8E009AA133 /* BHBlockTableState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBlockTableState.m; sourceTree = "<group>"; };
 		5DAAE8AF1B40E5F6000528C0 /* blocktable2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blocktable2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAAE8B31B40E5F6000528C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAAE8B41B40E5F6000528C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DAAE8B61B40E5F6000528C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DAAE8B71B40E5F6000528C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5DAAE8B91B40E5F6000528C0 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		5DAAE8BA1B40E5F6000528C0 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		5DAAE8BC1B40E5F6000528C0 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		5DAAE8BD1B40E5F6000528C0 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5DAAE8B91B40E5F6000528C0 /* SimpleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		5DAAE8BA1B40E5F6000528C0 /* SimpleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		5DAAE8BC1B40E5F6000528C0 /* ArrayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArrayViewController.h; sourceTree = "<group>"; };
+		5DAAE8BD1B40E5F6000528C0 /* ArrayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArrayViewController.m; sourceTree = "<group>"; };
 		5DAAE8C01B40E5F6000528C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DAAE8C21B40E5F6000528C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5DAAE8C51B40E5F6000528C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5DAAE8CB1B40E5F6000528C0 /* blocktable2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blocktable2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAAE8D01B40E5F6000528C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAAE8D11B40E5F6000528C0 /* blocktable2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blocktable2Tests.m; sourceTree = "<group>"; };
+		5DFB37AC1BC243CB00F6C758 /* BHBT2ArraySection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBT2ArraySection.h; sourceTree = "<group>"; };
+		5DFB37AD1BC243CB00F6C758 /* BHBT2ArraySection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBT2ArraySection.m; sourceTree = "<group>"; };
+		5DFB37AF1BC243E200F6C758 /* BHBT2StaticSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBT2StaticSection.h; sourceTree = "<group>"; };
+		5DFB37B01BC243E200F6C758 /* BHBT2StaticSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBT2StaticSection.m; sourceTree = "<group>"; };
+		5DFB37B51BC28F5200F6C758 /* StaticViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticViewController.h; sourceTree = "<group>"; };
+		5DFB37B61BC28F5200F6C758 /* StaticViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticViewController.m; sourceTree = "<group>"; };
+		5DFB37B81BC28F6900F6C758 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		5DFB37B91BC28F6900F6C758 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,56 +106,71 @@
 		5D12A7561B40E69000D5134C /* library */ = {
 			isa = PBXGroup;
 			children = (
-				5D12A7731B40E71200D5134C /* v1 */,
 				5D12A7871B40E71200D5134C /* v2 */,
 			);
 			path = library;
 			sourceTree = "<group>";
 		};
-		5D12A7731B40E71200D5134C /* v1 */ = {
+		5D12A7871B40E71200D5134C /* v2 */ = {
 			isa = PBXGroup;
 			children = (
-				5D12A7741B40E71200D5134C /* BHBlockTable.h */,
-				5D12A7751B40E71200D5134C /* BHBlockTable.m */,
-				5D12A7761B40E71200D5134C /* BHBlockTableDynamicSection.h */,
-				5D12A7771B40E71200D5134C /* BHBlockTableDynamicSection.m */,
-				5D12A7781B40E71200D5134C /* BHBlockTableFRC.h */,
-				5D12A7791B40E71200D5134C /* BHBlockTableFRC.m */,
-				5D12A77A1B40E71200D5134C /* BHBlockTableFRCSection.h */,
-				5D12A77B1B40E71200D5134C /* BHBlockTableFRCSection.m */,
-				5D12A77E1B40E71200D5134C /* BHBlockTableSection.h */,
-				5D12A77F1B40E71200D5134C /* BHBlockTableSection.m */,
-				5D12A7801B40E71200D5134C /* BHBlockTableStaticSection.h */,
-				5D12A7811B40E71200D5134C /* BHBlockTableStaticSection.m */,
-				5D12A7821B40E71200D5134C /* BHBlockTableStaticSectionCellDef.h */,
-				5D12A7831B40E71200D5134C /* BHBlockTableStaticSectionCellDef.m */,
-				5D12A7841B40E71200D5134C /* BHBlockTableTypes.h */,
-				5D12A7851B40E71200D5134C /* BHBlockTableViewController.h */,
-				5D12A7861B40E71200D5134C /* BHBlockTableViewController.m */,
+				5D4193631B7C736F00F60C70 /* Tools */,
+				5D406D041B464B0D0021E798 /* Core */,
+				5D406D031B464B020021E798 /* Composite */,
+				5D406D021B464AFD0021E798 /* Simple */,
 			);
-			path = v1;
+			path = v2;
 			sourceTree = "<group>";
 		};
-		5D12A7871B40E71200D5134C /* v2 */ = {
+		5D406D021B464AFD0021E798 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				5D12A7971B40E8D300D5134C /* BHBT2SimpleDataAdapter.h */,
+				5D12A7981B40E8D300D5134C /* BHBT2SimpleDataAdapter.m */,
+			);
+			name = Simple;
+			sourceTree = "<group>";
+		};
+		5D406D031B464B020021E798 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				5D406D081B466C550021E798 /* BHBlockTableBaseSection.h */,
+				5D406D091B466C550021E798 /* BHBlockTableBaseSection.m */,
+				5D12A79A1B40E92900D5134C /* BHBT2CompositeDataAdapter.h */,
+				5D12A79B1B40E92900D5134C /* BHBT2CompositeDataAdapter.m */,
+				5D406D051B466C0B0021E798 /* BHBT2DynamicSection.h */,
+				5D406D061B466C0B0021E798 /* BHBT2DynamicSection.m */,
+				5DFB37AC1BC243CB00F6C758 /* BHBT2ArraySection.h */,
+				5DFB37AD1BC243CB00F6C758 /* BHBT2ArraySection.m */,
+				5DFB37AF1BC243E200F6C758 /* BHBT2StaticSection.h */,
+				5DFB37B01BC243E200F6C758 /* BHBT2StaticSection.m */,
+			);
+			name = Composite;
+			sourceTree = "<group>";
+		};
+		5D406D041B464B0D0021E798 /* Core */ = {
 			isa = PBXGroup;
 			children = (
 				5D12A7911B40E81C00D5134C /* BHBlockTable2.h */,
 				5D12A7921B40E81C00D5134C /* BHBlockTable2.m */,
-				5D12A7941B40E88F00D5134C /* BHBlockTable2DataAdapter.h */,
-				5D12A7951B40E88F00D5134C /* BHBlockTable2DataAdapter.m */,
-				5D12A7971B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.h */,
-				5D12A7981B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.m */,
-				5D12A79A1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.h */,
-				5D12A79B1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.m */,
-				5D12A79D1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.h */,
-				5D12A79E1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.m */,
+				5D12A7941B40E88F00D5134C /* BHBlockTable2AdapterBase.h */,
+				5D12A7951B40E88F00D5134C /* BHBlockTable2AdapterBase.m */,
+				5D9FC4701B411D8E009AA133 /* BHBlockTableState.h */,
+				5D9FC4711B411D8E009AA133 /* BHBlockTableState.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5D4193631B7C736F00F60C70 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
 				5D9FC46C1B4109D9009AA133 /* BHBlockTableNIBTools.h */,
 				5D9FC46D1B4109D9009AA133 /* BHBlockTableNIBTools.m */,
 				5D9FC46F1B411AC7009AA133 /* BHBlockTable2Types.h */,
-				5D9FC4701B411D8E009AA133 /* BHBlockTableInfo.h */,
-				5D9FC4711B411D8E009AA133 /* BHBlockTableInfo.m */,
+				5D406CFF1B4632D60021E798 /* BHBT2ViewController.h */,
+				5D406D001B4632D60021E798 /* BHBT2ViewController.m */,
 			);
-			path = v2;
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		5DAAE8A61B40E5F6000528C0 = {
@@ -189,10 +197,14 @@
 			children = (
 				5DAAE8B61B40E5F6000528C0 /* AppDelegate.h */,
 				5DAAE8B71B40E5F6000528C0 /* AppDelegate.m */,
-				5DAAE8B91B40E5F6000528C0 /* FirstViewController.h */,
-				5DAAE8BA1B40E5F6000528C0 /* FirstViewController.m */,
-				5DAAE8BC1B40E5F6000528C0 /* SecondViewController.h */,
-				5DAAE8BD1B40E5F6000528C0 /* SecondViewController.m */,
+				5DAAE8B91B40E5F6000528C0 /* SimpleViewController.h */,
+				5DAAE8BA1B40E5F6000528C0 /* SimpleViewController.m */,
+				5DAAE8BC1B40E5F6000528C0 /* ArrayViewController.h */,
+				5DAAE8BD1B40E5F6000528C0 /* ArrayViewController.m */,
+				5DFB37B51BC28F5200F6C758 /* StaticViewController.h */,
+				5DFB37B61BC28F5200F6C758 /* StaticViewController.m */,
+				5DFB37B81BC28F6900F6C758 /* DynamicViewController.h */,
+				5DFB37B91BC28F6900F6C758 /* DynamicViewController.m */,
 				5DAAE8BF1B40E5F6000528C0 /* Main.storyboard */,
 				5DAAE8C21B40E5F6000528C0 /* Images.xcassets */,
 				5DAAE8C41B40E5F6000528C0 /* LaunchScreen.xib */,
@@ -271,7 +283,7 @@
 		5DAAE8A71B40E5F6000528C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Ashemah Harrison";
 				TargetAttributes = {
 					5DAAE8AE1B40E5F6000528C0 = {
@@ -327,24 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D12A78B1B40E71200D5134C /* BHBlockTableFRCSection.m in Sources */,
-				5D12A79C1B40E92900D5134C /* BHBlockTable2CompositeDataAdapter.m in Sources */,
-				5DAAE8BE1B40E5F6000528C0 /* SecondViewController.m in Sources */,
-				5D12A7901B40E71200D5134C /* BHBlockTableViewController.m in Sources */,
-				5D12A78A1B40E71200D5134C /* BHBlockTableFRC.m in Sources */,
-				5D12A7881B40E71200D5134C /* BHBlockTable.m in Sources */,
-				5D9FC4721B411D8E009AA133 /* BHBlockTableInfo.m in Sources */,
-				5D12A79F1B40E94B00D5134C /* BHBlockTable2RealmDataAdapter.m in Sources */,
-				5D12A7961B40E88F00D5134C /* BHBlockTable2DataAdapter.m in Sources */,
-				5D12A78D1B40E71200D5134C /* BHBlockTableSection.m in Sources */,
-				5D12A78E1B40E71200D5134C /* BHBlockTableStaticSection.m in Sources */,
+				5D12A79C1B40E92900D5134C /* BHBT2CompositeDataAdapter.m in Sources */,
+				5DFB37B11BC243E200F6C758 /* BHBT2StaticSection.m in Sources */,
+				5DFB37B71BC28F5200F6C758 /* StaticViewController.m in Sources */,
+				5DAAE8BE1B40E5F6000528C0 /* ArrayViewController.m in Sources */,
+				5D406D071B466C0B0021E798 /* BHBT2DynamicSection.m in Sources */,
+				5D9FC4721B411D8E009AA133 /* BHBlockTableState.m in Sources */,
+				5DFB37BA1BC28F6900F6C758 /* DynamicViewController.m in Sources */,
+				5DFB37AE1BC243CB00F6C758 /* BHBT2ArraySection.m in Sources */,
+				5D406D0A1B466C550021E798 /* BHBlockTableBaseSection.m in Sources */,
+				5D12A7961B40E88F00D5134C /* BHBlockTable2AdapterBase.m in Sources */,
 				5DAAE8B81B40E5F6000528C0 /* AppDelegate.m in Sources */,
-				5DAAE8BB1B40E5F6000528C0 /* FirstViewController.m in Sources */,
-				5D12A7891B40E71200D5134C /* BHBlockTableDynamicSection.m in Sources */,
-				5D12A78F1B40E71200D5134C /* BHBlockTableStaticSectionCellDef.m in Sources */,
+				5DAAE8BB1B40E5F6000528C0 /* SimpleViewController.m in Sources */,
 				5DAAE8B51B40E5F6000528C0 /* main.m in Sources */,
 				5D9FC46E1B4109D9009AA133 /* BHBlockTableNIBTools.m in Sources */,
-				5D12A7991B40E8D300D5134C /* BHBlockTable2SimpleDataAdapter.m in Sources */,
+				5D12A7991B40E8D300D5134C /* BHBT2SimpleDataAdapter.m in Sources */,
+				5D406D011B4632D60021E798 /* BHBT2ViewController.m in Sources */,
 				5D12A7931B40E81D00D5134C /* BHBlockTable2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +418,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -475,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = blocktable2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boostedhuman.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -485,6 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = blocktable2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boostedhuman.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -503,6 +516,7 @@
 				);
 				INFOPLIST_FILE = blocktable2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boostedhuman.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blocktable2.app/blocktable2";
 			};
@@ -518,6 +532,7 @@
 				);
 				INFOPLIST_FILE = blocktable2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boostedhuman.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blocktable2.app/blocktable2";
 			};

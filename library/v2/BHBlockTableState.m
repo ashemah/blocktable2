@@ -6,12 +6,12 @@
 //  Copyright (c) 2015 Ashemah Harrison. All rights reserved.
 //
 
-#import "BHBlockTableInfo.h"
+#import "BHBlockTableState.h"
 
-@interface BHBlockTableInfo ()
-@property (retain, nonatomic) NSMutableArray *rowsToRefresh;
+@interface BHBlockTableState ()
+@property (retain, nonatomic) NSMutableArray *indexesToRefresh;
 @end
 
-@implementation BHBlockTableInfo
+@implementation BHBlockTableState
 
 @end

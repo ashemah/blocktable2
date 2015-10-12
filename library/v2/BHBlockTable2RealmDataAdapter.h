@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Ashemah Harrison. All rights reserved.
 //
 
-#import "BHBlockTable2DataAdapter.h"
+#import "BHBT2DataAdapter.h"
 
-@interface BHBlockTable2RealmDataAdapter : BHBlockTable2DataAdapter
+@interface BHBlockTable2RealmDataAdapter : BHBT2DataAdapter
 
 @end

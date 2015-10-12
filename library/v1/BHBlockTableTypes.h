@@ -15,10 +15,10 @@
 @class BHBlockTableInfo;
 
 typedef void (^DidScrollToEndOfTable)(BHBlockTable*);
-typedef void (^DidSelectRowBlock)(BHBlockTableInfo*);
-typedef void (^DidDeselectRowBlock)(BHBlockTableInfo*);
-typedef void (^WillDisplayCellForRowBlock)(BHBlockTableInfo*info);
-typedef void (^ConfigureCellForRowBlock)(BHBlockTableInfo*info);
+typedef void (^DidSelectRowAtIndexPathBlock)(BHBlockTableInfo*);
+typedef void (^DidDeselectRowAtIndexPathBlock)(BHBlockTableInfo*);
+typedef void (^WillDisplayCellForIndexPathBlock)(BHBlockTableInfo*info);
+typedef void (^ConfigureCellForIndexPathBlock)(BHBlockTableInfo*info);
 typedef void (^ConfigureEmptyCellForRowBlock)(BHBlockTableInfo*info);
 typedef CGFloat (^HeightForRowBlock)(BHBlockTableInfo*);
 typedef NSInteger (^NumberOfRowsBlock)(BHBlockTableInfo*);

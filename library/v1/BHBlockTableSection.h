@@ -39,10 +39,10 @@
 
 @property (assign, nonatomic) BOOL hasConfiguredHeader;
 
-@property (copy, nonatomic) DidSelectRowBlock didSelectRow;
-@property (copy, nonatomic) DidDeselectRowBlock didDeselectRow;
-@property (copy, nonatomic) WillDisplayCellForRowBlock willDisplayCellForRow;
-@property (copy, nonatomic) ConfigureCellForRowBlock configureCellForRow;
+@property (copy, nonatomic) DidSelectRowAtIndexPathBlock didSelectRow;
+@property (copy, nonatomic) DidDeselectRowAtIndexPathBlock didDeselectRow;
+@property (copy, nonatomic) WillDisplayCellForIndexPathBlock willDisplayCellForRow;
+@property (copy, nonatomic) ConfigureCellForIndexPathBlock configureCellForRow;
 @property (copy, nonatomic) ConfigureEmptyCellForRowBlock configureEmptyCellForRow;
 @property (copy, nonatomic) HeightForRowBlock heightForRow;
 @property (copy, nonatomic) ConfigureHeaderViewBlock configureHeaderView;

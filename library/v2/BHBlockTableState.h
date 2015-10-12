@@ -13,12 +13,14 @@ typedef enum {
     InfoMode_CalculatingHeight
 } InfoMode;
 
-@interface BHBlockTableInfo : NSObject
+@interface BHBlockTableState : NSObject
 
+@property (assign, nonatomic) NSIndexPath *indexPath;
 @property (assign, nonatomic) NSIndexPath *lastTappedIndexPath;
 
 @property (assign, nonatomic) NSInteger rowIndex;
 @property (assign, nonatomic) NSInteger sectionIndex;
+
 @property (retain, nonatomic) id cell;
 @property (retain, nonatomic) id view;
 

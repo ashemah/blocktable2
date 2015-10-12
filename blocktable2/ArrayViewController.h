@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondViewController.h
 //  blocktable2
 //
 //  Created by Ashemah Harrison on 29/06/2015.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BHBT2ViewController.h"
 
-@interface FirstViewController : UIViewController
-
+@interface ArrayViewController : BHBT2ViewController
 
 @end
 

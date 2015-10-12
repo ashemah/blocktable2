@@ -12,19 +12,19 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-@class BHBlockTableInfo;
+@class BHBlockTableState;
 
-typedef void (^DidScrollToEndOfTable)(BHBlockTableInfo*);
-typedef void (^DidSelectRowAtIndexPathBlock)(BHBlockTableInfo*);
-typedef void (^DidDeselectRowAtIndexPathBlock)(BHBlockTableInfo*);
-typedef void (^WillDisplayCellForIndexPathBlock)(BHBlockTableInfo*info);
-typedef NSString* (^CellIdentifierForIndexPath)(BHBlockTableInfo*info);
-typedef void (^ConfigureCellForIndexPathBlock)(BHBlockTableInfo*info);
-typedef void (^ConfigureEmptyCellForRowBlock)(BHBlockTableInfo*info);
-typedef CGFloat (^HeightForRowBlock)(BHBlockTableInfo*);
-typedef NSInteger (^NumberOfRowsInSectionBlock)(BHBlockTableInfo*);
-typedef NSInteger (^NumberOfSectionsBlock)(BHBlockTableInfo*);
-typedef void (^ConfigureHeaderViewBlock)(BHBlockTableInfo*);
-typedef void (^RemoveRowBlock)(BHBlockTableInfo*);
+typedef void (^DidSelectRowAtIndexPathBlock)(BHBlockTableState*);
+typedef void (^DidDeselectRowAtIndexPathBlock)(BHBlockTableState*);
+typedef void (^WillDisplayCellForIndexPathBlock)(BHBlockTableState*info);
+typedef NSString* (^CellIdentifierForIndexPath)(BHBlockTableState*info);
+typedef void (^ConfigureCellForIndexPathBlock)(BHBlockTableState*info);
+typedef void (^ConfigureViewForSectionBlock)(BHBlockTableState*info);
+typedef void (^ConfigureEmptyCellForSectionBlock)(BHBlockTableState*info);
+typedef CGFloat (^HeightForRowBlock)(BHBlockTableState*);
+typedef NSInteger (^NumberOfRowsInSectionBlock)(BHBlockTableState*);
+typedef NSInteger (^NumberOfSectionsBlock)(BHBlockTableState*);
+typedef void (^ConfigureHeaderViewBlock)(BHBlockTableState*);
+typedef void (^RemoveRowBlock)(BHBlockTableState*);
 
 #endif
